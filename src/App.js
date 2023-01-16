@@ -13,7 +13,7 @@ function App() {
     setError(null);
     try {
       const response = await fetch(
-        'https://react-movies-87984-default-rtdb.europe-west1.firebasedatabase.app/'
+        'https://react-movies-87984-default-rtdb.europe-west1.firebasedatabase.app/taks.json'
       );
 
       if (!response.ok) {
